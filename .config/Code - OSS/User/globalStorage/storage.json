@@ -1,0 +1,101 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "9c9b80d709656721d3c99f4832bc07d4c44cc0d997bf465d00573649c095ed18",
+    "telemetry.devDeviceId": "23e70abc-18c8-455d-ae8a-73ce6144a5ba",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/levi/.config"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/levi/.config/hypr": "__default__profile__",
+            "file:///home/levi/.config/waypaper": "__default__profile__",
+            "file:///home/levi/.config": "__default__profile__",
+            "file:///home/levi/.config/waybar": "__default__profile__",
+            "file:///home/levi/.config/dunst": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/levi/.config",
+            "backupPath": "/home/levi/.config/Code - OSS/Backups/fdd79563ec4194f628c621d556b90297",
+            "uiState": {
+                "mode": 1,
+                "x": 5132,
+                "y": 60,
+                "width": 2536,
+                "height": 1368
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "081b2afca2a402a3e5a6747ea2350689": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "673ad85e2734b347c73659e28f0b7c97": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d8ee9354456dce19928ba20253c86e11": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "aeaff2d9dd92a086404ed1364ef2c373": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5eea9c704ad1d59f5b7d23eca656e42c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "990be8131f58e5de493aac58b5b65b9f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+2025-07-23 14:51:22.789 [info] Extension host with pid 128770 started
+2025-07-23 14:51:22.789 [info] Skipping acquiring lock for /home/levi/.config/VSCodium/User/workspaceStorage/d8ee9354456dce19928ba20253c86e11.
+2025-07-23 14:51:22.863 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-23 14:51:22.887 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-23 14:51:22.896 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-23 14:51:22.927 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-23 14:51:23.042 [info] Eager extensions activated
+2025-07-23 14:51:23.052 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-23 14:51:23.054 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-23 14:51:23.066 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2025-07-23 14:51:23.084 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2025-07-23 14:51:23.234 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-23 14:51:47.352 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'

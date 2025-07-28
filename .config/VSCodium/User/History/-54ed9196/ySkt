@@ -1,0 +1,6 @@
+show=drun
+case-insensitive=true
+prompt=
+lines=15
+columns=1
+term=foot

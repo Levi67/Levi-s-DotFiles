@@ -1,0 +1,10 @@
+width=600
+
+
+
+
+show=drun
+case-insensitive=true
+prompt=
+columns=1
+term=foot

@@ -1,0 +1,271 @@
+[global]
+    ### Display ###
+    
+    # Which monitor should the notifications be displayed on.
+    monitor = 0
+    
+    # Display notification on focused monitor. Possible modes are:
+    # mouse: follow mouse pointer
+    # keyboard: follow window with keyboard focus
+    # none: don't follow anything
+    follow = none
+    
+    ### Geometry ###
+    
+    # dynamic width from 0 to 350
+    width = 350
+    
+    # The maximum height of a single notification, excluding the frame.
+    height = 150
+    
+    # Position the notification in the top right corner
+    origin = top-right
+    
+    # Offset from the origin
+    offset = 15x50
+    
+    # Scale factor. It is auto-detected if value is 0.
+    scale = 0
+    
+    # Maximum number of notification (0 means no limit)
+    notification_limit = 10
+    
+    ### Progress bar ###
+    
+    # Turn on the progress bar. It appears when a progress hint is passed
+    progress_bar = true
+    
+    # Set the progress bar height
+    progress_bar_height = 8
+    
+    # Set the frame width of the progress bar
+    progress_bar_frame_width = 0
+    
+    # Set the minimum width for the progress bar
+    progress_bar_min_width = 150
+    
+    # Set the maximum width for the progress bar
+    progress_bar_max_width = 300
+    
+    # Corner radius for the progress bar
+    progress_bar_corner_radius = 4
+    
+    # Corner radius for the icon image
+    icon_corner_radius = 8
+    
+    ### Transparency ###
+    
+    # Window transparency [0-100]
+    transparency = 15
+    
+    # Draw a line of "separator_height" pixel height between two notifications
+    separator_height = 0
+    
+    # Padding between text and separator
+    padding = 15
+    
+    # Horizontal padding
+    horizontal_padding = 20
+    
+    # Defines width in pixels of frame around the notification window
+    frame_width = 1
+    
+    # Defines color of the frame around the notification window (subtle white border)
+    frame_color = "rgba(255, 255, 255, 0.35)"
+    
+    # Size of gap to display between notifications
+    gap_size = 8
+    
+    # Define a color for the separator
+    separator_color = frame
+    
+    # Sort messages by urgency
+    sort = yes
+    
+    ### Text ###
+    
+    font = Inter 12
+    
+    # The spacing between lines
+    line_height = 3
+    
+    # Allow HTML markup
+    markup = full
+    
+    # The format of the message
+    format = "<b>%s</b>\n%b"
+    
+    # Alignment of message text
+    alignment = left
+    
+    # Vertical alignment of message text and icon
+    vertical_alignment = center
+    
+    # Show age of message if message is older than show_age_threshold seconds
+    show_age_threshold = 60
+    
+    # Specify where to make an ellipsis in long lines
+    ellipsize = end
+    
+    # Ignore newlines '\n' in notifications
+    ignore_newline = no
+    
+    # Stack together notifications with the same content
+    stack_duplicates = true
+    
+    # Hide the count of stacked notifications with the same content
+    hide_duplicate_count = false
+    
+    # Display indicators for URLs (U) and actions (A)
+    show_indicators = yes
+    
+    ### Icons ###
+    
+    # Recursive icon lookup
+    enable_recursive_icon_lookup = true
+    
+    # Set icon theme
+    icon_theme = Adwaita
+    
+    # Align icons left/right/top/off
+    icon_position = left
+    
+    # Scale small icons up to this size
+    min_icon_size = 24
+    
+    # Scale larger icons down to this size
+    max_icon_size = 48
+    
+    # Paths to default icons
+    icon_path = /usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/:/usr/share/icons/Adwaita/16x16/legacy/
+    
+    ### History ###
+    
+    # Should a notification popped up from history be sticky or timeout
+    sticky_history = yes
+    
+    # Maximum amount of notifications kept in history
+    history_length = 20
+    
+    ### Misc/Advanced ###
+    
+    # dmenu path
+    dmenu = /usr/bin/dmenu -p dunst:
+    
+    # Browser for opening urls in context menu
+    browser = /usr/bin/xdg-open
+    
+    # Always run rule-defined scripts, even if the notification is suppressed
+    always_run_script = true
+    
+    # Define the title of the windows spawned by dunst
+    title = Dunst
+    
+    # Define the class of the windows spawned by dunst
+    class = Dunst
+    
+    # Define the corner radius of the notification window (glassy rounded corners)
+    corner_radius = 15
+    
+    # Ignore the dbus closeNotification message
+    ignore_dbusclose = false
+    
+    ### Wayland ###
+    # These settings are Wayland-specific
+    
+    # Uncomment this if you want to let notifications appear under fullscreen applications
+    # layer = top
+    
+    # Set this to true to use X11 output on Wayland
+    force_xwayland = false
+    
+    ### Legacy
+    
+    # Use the Xinerama extension instead of RandR for multi-monitor support
+    force_xinerama = false
+    
+    ### mouse
+    
+    # Defines list of actions for each mouse event
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+[experimental]
+    # Calculate the dpi to use on a per-monitor basis
+    per_monitor_dpi = false
+
+
+[urgency_low]
+    # Glassy low urgency - subtle and translucent
+    background = "#40f0f0f0"
+    foreground = "#1d1d1f"
+    frame_color = "#59000000"
+    timeout = 8
+    # Icon for notifications with low urgency
+    #default_icon = /path/to/icon
+
+[urgency_normal]
+    # Glassy normal urgency - more visible but still elegant
+    background = "#40f0f0f0"
+    foreground = "#1d1d1f"
+    frame_color = "rgba(255, 255, 255, 0.35)"
+    timeout = 10
+    # Icon for notifications with normal urgency
+    #default_icon = /path/to/icon
+
+[urgency_critical]
+    # Glassy critical urgency - slightly more opaque with red tint
+    background = "#59ffc8c8"
+    foreground = "#1d1d1f"
+    frame_color = "#80ff6464"
+    timeout = 0
+    # Icon for notifications with critical urgency
+    #default_icon = /path/to/icon
+
+# Example rules for different applications with custom styling
+
+[spotify]
+    appname = "Spotify"
+    background = "rgba(102, 204, 153, 0.25)"
+    foreground = "#1d1d1f"
+    frame_color = "rgba(102, 204, 153, 0.5)"
+    timeout = 5
+
+[volume]
+    summary = "*olume*"
+    background = "rgba(100, 150, 255, 0.25)"
+    foreground = "#1d1d1f"
+    frame_color = "rgba(100, 150, 255, 0.35)"
+    timeout = 3
+
+[brightness]
+    summary = "*rightness*"
+    background = "rgba(255, 200, 100, 0.25)"
+    foreground = "#1d1d1f"
+    frame_color = "rgba(255, 200, 100, 0.35)"
+    timeout = 3
+
+[battery]
+    summary = "*attery*"
+    background = "rgba(255, 150, 150, 0.25)"
+    foreground = "#1d1d1f"
+    frame_color = "rgba(255, 150, 150, 0.35)"
+    timeout = 8
+
+[network]
+    summary = "*etwork*"
+    background = "rgba(150, 200, 255, 0.25)"
+    foreground = "#1d1d1f"
+    frame_color = "rgba(150, 200, 255, 0.35)"
+    timeout = 5
+
+# Disable notifications for certain apps (uncomment to use)
+#[ignore_example]
+#    appname = "some_spammy_app"
+#    skip_display = true
+
+# Stack volume notifications together
+#[stack_volumes]
+#    summary = "*olume*"
+#    set_stack_tag = "volume"

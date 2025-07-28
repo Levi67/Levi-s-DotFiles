@@ -1,0 +1,52 @@
+* {
+    font-family: "Inter", "Font Awesome 6 Free", sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    color: #000000;
+}
+
+window {
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* stronger, softer shadow */
+}
+
+
+#outer-box, #inner-box, #scroll {
+    background-color: transparent;
+    border: none;
+}
+
+#input {
+    margin: 10px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.35);
+    color: #000000;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+#entry {
+    border-radius: 10px;
+    margin: 3px 10px;
+    padding: 6px 12px;
+    background-color: transparent;
+}
+
+#entry:selected {
+    background-color: rgba(147, 179, 249, 0.4); /* soft pastel blue */
+}
+
+#entry:selected #text {
+    font-weight: bold;
+    color: #000000;
+}
+
+#text {
+    color: #000000;
+}

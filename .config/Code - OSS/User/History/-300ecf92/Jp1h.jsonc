@@ -1,0 +1,23 @@
+{
+        "layer": "bottom",
+        "position": "top",
+        "height": 30,
+        "reload_style_on_change": true,
+        "modules-left": ["hyprland/window"],
+        "modules-center": ["clock", "custom/weather"],
+        "modules-right": [""],
+
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%A, %B %d, %Y}"
+    },
+
+    "custom/weather": {
+        "format": "{}",
+        "tooltip": true,
+        "interval": 3600,
+        "exec": "waybar-wttr.py",
+        "return-type": "json"
+    }
+}

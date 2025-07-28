@@ -1,0 +1,84 @@
+* {
+    border: none;
+    border-radius: 0;
+    /*font-family: "Hack", "Noto Color Emoji", sans-serif;*/
+    font-size: 16px;
+    font-family: "Inter", "Font Awesome 6 Free", sans-serif;
+    /*font-weight: bold;*/
+    min-height: 0;
+}
+
+.modules-center, .modules-right, .modules-left {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 0 3px rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+}
+
+
+window#waybar {
+    background: transparent;
+    
+    /*border-bottom: 3px solid rgba(100, 114, 125, 0.5);*/
+    color: #000000;
+    
+}
+
+tooltip {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    border: 0.5px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+tooltip label {
+    color: #1d1d1f;
+}
+
+#clock, #cpu, #memory, #pulseaudio, #custom-media{
+    padding: 0 10px;
+    margin: 0 5px;
+    color: #000000;
+}
+
+#clock {
+    /*background-color: #64727D;*/
+    color: #000000;
+    font-weight: bold;
+}
+
+#cpu {
+    /*background: #2ecc71;*/
+    color: #000000;
+}
+
+#memory {
+    /*background: #9b59b6;*/
+    color: #000000;
+}
+
+#pulseaudio {
+    /*background: #000000;*/
+    color: #000000;
+}
+
+#pulseaudio.muted {
+    /*background: #000000;*/
+    color: #000000;
+}
+
+#custom-media {
+    background: #66cc99;
+    color: #2a5c45;
+}
+
+.custom-spotify {
+    background: #66cc99;
+}
+
+.custom-vlc {
+    background: #ffa000;
+}

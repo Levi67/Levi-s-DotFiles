@@ -1,0 +1,36 @@
+{
+    "layer": "top", // Waybar at top layer
+    "modules-left": [],
+    "modules-center": ["clock"],
+    "modules-right": ["cpu", "memory", "pulseaudio"],
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        "tooltip-format": "{%H:%M}",
+        "format": "{:%H:%M}"
+    },
+    "cpu": {
+        "format": "　{usage}%"
+    },
+    "memory": {
+        "format": "　{}%"
+    },
+    "pulseaudio": {
+        //"scroll-step": 1,
+        "format": "　{volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "on-click": "pavucontrol"
+    }
+}

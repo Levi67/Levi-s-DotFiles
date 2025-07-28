@@ -1,0 +1,106 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "9c9b80d709656721d3c99f4832bc07d4c44cc0d997bf465d00573649c095ed18",
+    "telemetry.devDeviceId": "23e70abc-18c8-455d-ae8a-73ce6144a5ba",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/levi/Software/rustlings/exercises"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/levi/gitClones/kickstart.nvim": "__default__profile__",
+            "file:///home/levi/.config/nvim": "__default__profile__",
+            "file:///home/levi/Projects/Hermes-Trading-V4": "__default__profile__",
+            "file:///home/levi/.config/hypr": "__default__profile__",
+            "file:///home/levi/.config": "__default__profile__",
+            "file:///home/levi/Software/rustlings/exercises": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/levi/Software/rustlings/exercises",
+            "backupPath": "/home/levi/.config/VSCodium/Backups/677e48dbda6fd1d557394704cf2e8fb1",
+            "uiState": {
+                "mode": 1,
+                "x": 6407,
+                "y": 751,
+                "width": 1261,
+                "height": 677
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "76758125f230af41c5c734ec304b64a2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1753ddca0bb2e88320516ba4779faad2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "62e1293fb0740b35226df1dddd29d25a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "27e9e45e21ce389fdd3d29d56c9134d6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "fc80b8ffa168cc36254a1527fc937217": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d8ee9354456dce19928ba20253c86e11": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "31cc278c3f59fe10ad576b257e914f4d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
