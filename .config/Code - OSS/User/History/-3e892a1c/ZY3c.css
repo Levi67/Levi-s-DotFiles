@@ -1,0 +1,4 @@
+@define-color background rgba(30, 30, 46, 0.8);
+@define-color foreground rgba(205, 214, 244, 1.0);
+@define-color active rgba(137, 180, 250, 1.0);
+@define-color color6 rgba(137, 180, 250, 1.0);

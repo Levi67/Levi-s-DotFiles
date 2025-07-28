@@ -1,0 +1,46 @@
+//Add window rule for the audio settings, get the audio settings darkmode too
+//Put something into the left buble
+{
+    "layer": "bottom", // Waybar at top layer
+    "modules-left": ["mpris"],
+    "modules-center": ["clock"],
+    "modules-right": ["cpu", "memory", "pulseaudio"],
+
+        "mpris": {
+        "format": "{status_icon}  {title}",
+        "title-len": 20,
+        "format-paused": "{status_icon}  <i>{title}</i>",
+        "format-stopped": "{status_icon}",
+        "status-icons": {
+            "paused": "⏸",
+            "playing": "▶",
+            "stopped": "⏹",
+        }
+    },
+
+    "clock": {
+        "format": "{:%H:%M}"
+    },
+    "cpu": {
+        "format": "　{usage}%",
+    },
+    "memory": {
+        "format": "　{}%",
+    },
+    "pulseaudio": {
+        "scroll-step": 2,
+        "format": "　{volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "on-click": "pavucontrol"
+    }
+}

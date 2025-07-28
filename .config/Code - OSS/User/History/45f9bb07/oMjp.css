@@ -1,0 +1,89 @@
+* {
+    border: none;
+    border-radius: 0;
+    /*font-family: "Hack", "Noto Color Emoji", sans-serif;*/
+    font-size: 15px;
+    /*font-weight: bold;*/
+    min-height: 0;
+}
+
+.modules-center, .modules-right, .modules-left {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+
+window#waybar {
+    background: transparent;
+    
+    /*border-bottom: 3px solid rgba(100, 114, 125, 0.5);*/
+    color: #000000;
+    
+}
+
+
+#clock, #cpu, #memory, #pulseaudio, #custom-media{
+    padding: 0 10px;
+    margin: 0 5px;
+    color: #000000;
+}
+
+#clock {
+    /*background-color: #64727D;*/
+    color: #000000;
+    font-weight: bold;
+}
+
+tooltip {
+    background-color: rgba(255, 255, 255, 0.25); /* Match your bubble background */
+    border-radius: 15px;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+clock.tooltip label {
+    color: #1d1d1f; /* Match your text color */
+}
+
+@keyframes blink {
+    to {
+        /*background-color: #ffffff;*/
+        color: #000000;
+    }
+}
+
+#cpu {
+    /*background: #2ecc71;*/
+    color: #000000;
+}
+
+#memory {
+    /*background: #9b59b6;*/
+    color: #000000;
+}
+
+#pulseaudio {
+    /*background: #000000;*/
+    color: #000000;
+}
+
+#pulseaudio.muted {
+    /*background: #000000;*/
+    color: #000000;
+}
+
+#custom-media {
+    background: #66cc99;
+    color: #2a5c45;
+}
+
+.custom-spotify {
+    background: #66cc99;
+}
+
+.custom-vlc {
+    background: #ffa000;
+}

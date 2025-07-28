@@ -1,0 +1,85 @@
+* {
+    border: none;
+    border-radius: 0;
+    /*font-family: "Hack", "Noto Color Emoji", sans-serif;*/
+    font-size: 18px;
+    /*font-weight: bold;*/
+    min-height: 0;
+}
+
+.modules-center, .modules-right, .modules-left {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 18px; /* Slightly more rounded like macOS */
+    padding: 10px 16px;
+    margin: 6px;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #1d1d1f; /* Apple's signature dark gray */
+}
+
+/* Add some subtle hover effects */
+.modules-center:hover, .modules-right:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+    transition: all 0.2s ease;
+}
+
+window#waybar {
+    background: transparent;
+    
+    /*border-bottom: 3px solid rgba(100, 114, 125, 0.5);*/
+    color: #000000;
+    
+}
+
+
+#clock, #cpu, #memory, #pulseaudio, #custom-media {
+    padding: 0 10px;
+    margin: 0 5px;
+    color: #000000;
+}
+
+#clock {
+    /*background-color: #64727D;*/
+    color: #000000;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    to {
+        /*background-color: #ffffff;*/
+        color: #000000;
+    }
+}
+
+#cpu {
+    /*background: #2ecc71;*/
+    color: #000000;
+}
+
+#memory {
+    /*background: #9b59b6;*/
+    color: #000000;
+}
+
+#pulseaudio {
+    /*background: #000000;*/
+    color: #000000;
+}
+
+#pulseaudio.muted {
+    /*background: #000000;*/
+    color: #000000;
+}
+
+#custom-media {
+    background: #66cc99;
+    color: #2a5c45;
+}
+
+.custom-spotify {
+    background: #66cc99;
+}
+
+.custom-vlc {
+    background: #ffa000;
+}

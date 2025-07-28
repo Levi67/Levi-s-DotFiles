@@ -1,0 +1,8 @@
+:root {
+    --bg-color: rgba(30, 30, 46, 0.8);
+    --accent-color: #89b4fa;
+    --text-color: #cdd6f4;
+    --border-radius: 8px;
+    --padding: 10px;
+    --margin: 3px;
+}

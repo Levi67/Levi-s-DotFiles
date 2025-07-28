@@ -1,0 +1,13 @@
+2025-06-14 15:00:31.786 [info] Extension host with pid 2743 started
+2025-06-14 15:00:31.786 [info] Skipping acquiring lock for /home/levi/.config/Code - OSS/User/workspaceStorage/d8ee9354456dce19928ba20253c86e11.
+2025-06-14 15:00:31.858 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-14 15:00:31.910 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-14 15:00:31.914 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-14 15:00:31.941 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-14 15:00:31.976 [info] Eager extensions activated
+2025-06-14 15:00:31.977 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-14 15:00:31.981 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-14 15:00:32.009 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-14 15:00:32.043 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-14 15:00:32.044 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-14 15:00:41.661 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'

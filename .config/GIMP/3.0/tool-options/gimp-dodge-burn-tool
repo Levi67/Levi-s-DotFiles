@@ -1,0 +1,10 @@
+# GIMP gimp-dodge-burn-tool options
+
+(brush "2. Hardness 050")
+(dynamics "Pressure Size")
+(palette "Color History")
+(brush-size 10)
+(brush-spacing 0.01)
+(brush-force 1)
+
+# end of gimp-dodge-burn-tool options
