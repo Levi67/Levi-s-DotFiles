@@ -7,6 +7,9 @@
         "folders": [
             {
                 "folderUri": "file:///home/levi/Software/rustlings/exercises"
+            },
+            {
+                "folderUri": "file:///home/levi/dotFiles/.config/hypr"
             }
         ],
         "emptyWindows": []
@@ -19,7 +22,8 @@
             "file:///home/levi/Projects/Hermes-Trading-V4": "__default__profile__",
             "file:///home/levi/.config/hypr": "__default__profile__",
             "file:///home/levi/.config": "__default__profile__",
-            "file:///home/levi/Software/rustlings/exercises": "__default__profile__"
+            "file:///home/levi/Software/rustlings/exercises": "__default__profile__",
+            "file:///home/levi/dotFiles/.config/hypr": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -55,10 +59,10 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/levi/Software/rustlings/exercises",
-            "backupPath": "/home/levi/.config/VSCodium/Backups/677e48dbda6fd1d557394704cf2e8fb1",
+            "folder": "file:///home/levi/dotFiles/.config/hypr",
+            "backupPath": "/home/levi/.config/VSCodium/Backups/3e1703442e30cd97a33a3f7840595dd8",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 6407,
                 "y": 751,
                 "width": 1261,
@@ -97,6 +101,10 @@
                     "auxiliaryBarVisible": false
                 },
                 "31cc278c3f59fe10ad576b257e914f4d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "effc34459e1d77fab1dbc34695783f61": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }
