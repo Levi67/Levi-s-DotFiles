@@ -31,16 +31,6 @@
         },
         "break",
         {
-            "type": "Weather",
-            "key": "Weather",
-            //"format": "{temperature}°C, {condition} ({location})",
-            "location": "Ruhpolding",
-            "unit": "metric",
-	    "keyColor": "33",
-        },
-	"break",
-
-        {
             "type": "os",
             "key": "distribution   ",
             "keyColor": "33",
@@ -58,7 +48,7 @@
         },
         {
             "type": "shell",
-            "key": "shell          ",
+            "key": "unix shell     ",
             "keyColor": "33", 
         },
         {
@@ -72,16 +62,12 @@
             "key": "window manager ",
             "keyColor": "33", 
         },
-	{
-	    "type": "LocalIp",
-	    "key": "ip address     ",
-	    "keyColor": "33",
-	},
         "break",
         {
             "type": "colors",
             "symbol": "circle",
         },
+        "break",
         "break",
     ]
 }
