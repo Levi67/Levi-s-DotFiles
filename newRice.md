@@ -2,6 +2,7 @@
 
 - Wlan waybar modules, but only if so activated in another config file
 - Audio level and device chooser layout
+- Eww pop up for vpn selecter
 
 ## 1. Hyprland Setup
 - Install and configure Hyprland as your Wayland compositor.
