@@ -1,5 +1,7 @@
 # Hyprland Rice Setup Summary
 
+- Wlan waybar modules, but only if so activated in another config file
+
 ## 1. Hyprland Setup
 - Install and configure Hyprland as your Wayland compositor.
 - Configure `hyprland.conf` with:
