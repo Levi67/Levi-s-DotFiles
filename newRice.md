@@ -4,6 +4,7 @@
 - Audio level and device chooser layout
 - Eww pop up for vpn selecter + media
 - Maybe in the control panel pop up a cpu + gpu util thing
+- eww welcome screen
 
 ## 1. Hyprland Setup
 - Install and configure Hyprland as your Wayland compositor.
