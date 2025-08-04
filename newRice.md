@@ -3,6 +3,7 @@
 - Wlan waybar modules, but only if so activated in another config file
 - Audio level and device chooser layout
 - Eww pop up for vpn selecter + media
+- Maybe in the control panel pop up a cpu + gpu util thing
 
 ## 1. Hyprland Setup
 - Install and configure Hyprland as your Wayland compositor.
