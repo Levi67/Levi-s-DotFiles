@@ -29,10 +29,10 @@ Just an example, you can use the cmds you want:
 ```bash
 
 # Clone directly into your home directory
-git clone https://github.com/Levi67/Levi-s-DotFiles.git
+git clone https://github.com/Levi67/Levi-s-DotFiles.git ~/Levi-s-DotFiles
 
 # Cd into the cloned dir
-cd ~/dotfiles
+cd ~/Levi-s-DotFiles
 
 # Stow everything
 stow .
