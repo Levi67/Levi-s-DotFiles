@@ -6,6 +6,10 @@ vim.opt.expandtab = true
 vim.opt.termguicolors = true
 vim.opt.mouse = "a"
 vim.g.mapleader = " "
+--vim.opt.virtualedit = "all" -- For flying through the docs - Going into empty Spacevim
+--vim.opt.scrolloff = 999     -- -"-
+vim.opt.clipboard = "unnamedplus" -- For clipboard sharing
+
 
 
 -- Basic keymap example

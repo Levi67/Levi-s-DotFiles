@@ -31,6 +31,7 @@ return {
 
         vim.keymap.set('n', 'u', api.tree.change_root_to_parent, opts('Up'))
         vim.keymap.set('n', 'q', api.tree.close, opts('Close'))
+        vim.keymap.set('n', '<CR>', api.node.open.edit, opts('Open'))
       end,
     })
   end,

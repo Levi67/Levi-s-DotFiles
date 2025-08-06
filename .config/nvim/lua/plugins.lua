@@ -16,6 +16,16 @@ require("lazy").setup({
   "nvim-lua/plenary.nvim",
   "nvim-tree/nvim-web-devicons",
 
+
+
+  {
+  "folke/tokyonight.nvim",
+  config = function()
+    vim.cmd([[colorscheme tokyonight]])
+  end,
+  },
+
+
   -- Telescope plugins
   { "nvim-telescope/telescope.nvim", tag = "0.1.5" },
   { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
@@ -37,10 +47,49 @@ require("lazy").setup({
     end,
   },
 
-  -- Load separated plugin configs by requiring the files
+  -- Git
+  {
+    "lewis6991/gitsigns.nvim",
+    config = function()
+      require("gitsigns").setup()
+    end,
+  },
+
+  -- Spectre
+  {
+    "nvim-pack/nvim-spectre",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
+      require("spectre").setup()
+    end,
+  },
+
+  -- Lightbulb
+  {
+    "kosayoda/nvim-lightbulb",
+    dependencies = { "antoinemadec/FixCursorHold.nvim" },
+    config = function()
+      require("nvim-lightbulb").setup({
+        autocmd = { enabled = true }
+      })
+    end,
+  },
+
+  -- LSP Status
+  {
+    "j-hui/fidget.nvim",
+    tag = "legacy",
+    config = function()
+      require("fidget").setup({})
+    end,
+  },
+
+
+
+
+  -- Load separated plugin configs
   require("plugins.autocomplete"),
   require("plugins.nvim-tree"),
   require("plugins.lualine"),
-
+  require("plugins.autopairs")
 })
-
