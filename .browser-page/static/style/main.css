@@ -1,0 +1,359 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../wallpapers/your-wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Overlay to maintain readability */
+    background-image: 
+        linear-gradient(135deg, rgba(26, 27, 38, 0.8) 0%, rgba(36, 40, 59, 0.8) 100%),
+        url('../wallpapers/your-wallpaper.jpg');
+    color: var(--fg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Clock Section */
+.clock-section {
+    background: rgba(36, 40, 59, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 1.5rem;
+    padding: 2rem 3rem;
+    text-align: center;
+    border: 1px solid rgba(122, 162, 247, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.clock {
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
+.date {
+    font-size: 1.2rem;
+    color: var(--fg);
+    opacity: 0.8;
+}
+
+/* Main Content Grid */
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.section {
+    background: rgba(36, 40, 59, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    border: 1px solid rgba(122, 162, 247, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent);
+    text-align: center;
+}
+
+/* Weather Section */
+.weather {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.weather-icon {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.weather-info {
+    text-align: center;
+}
+
+/* Google Search Section */
+.search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.search-form {
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.1rem;
+    background: rgba(26, 27, 38, 0.8);
+    color: var(--fg);
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    background: rgba(26, 27, 38, 1);
+    box-shadow: 0 0 0 2px var(--accent);
+}
+
+input[type="text"]::placeholder {
+    color: rgba(192, 202, 245, 0.6);
+}
+
+/* Pins subsection */
+.pins {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.pin {
+    background: rgba(26, 27, 38, 0.8);
+    padding: 0.8rem 1rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    color: var(--fg);
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.pin:hover {
+    background: var(--accent);
+    color: var(--bg);
+    transform: translateY(-2px);
+}
+
+/* Tasks Section */
+.tasks {
+    list-style: none;
+}
+
+.task {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(122, 162, 247, 0.2);
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.task:hover {
+    color: var(--accent);
+}
+
+.task-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.task-info {
+    flex: 1;
+}
+
+.task-name {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.task-description {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-bottom: 0.3rem;
+}
+
+.task-due {
+    font-size: 0.8rem;
+    color: var(--accent);
+    opacity: 0.8;
+}
+
+.task-overdue {
+    color: #f7768e !important;
+}
+
+.task-actions {
+    display: flex;
+    gap: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.task:hover .task-actions {
+    opacity: 1;
+}
+
+.task-btn {
+    background: none;
+    border: none;
+    color: var(--fg);
+    cursor: pointer;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    transition: background-color 0.3s ease;
+}
+
+.task-btn:hover {
+    background: rgba(122, 162, 247, 0.2);
+}
+
+.delete-btn:hover {
+    background: rgba(247, 118, 142, 0.2);
+    color: #f7768e;
+}
+
+.completed-task {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+/* Add Task Button */
+.add-task-btn {
+    width: 100%;
+    padding: 1rem;
+    background: rgba(122, 162, 247, 0.2);
+    border: 2px dashed var(--accent);
+    color: var(--accent);
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.add-task-btn:hover {
+    background: rgba(122, 162, 247, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Task Form */
+.task-form {
+    background: rgba(26, 27, 38, 0.8);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(122, 162, 247, 0.3);
+}
+
+.task-form input,
+.task-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgba(36, 40, 59, 0.8);
+    color: var(--fg);
+    font-family: inherit;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.task-form input:focus,
+.task-form textarea:focus {
+    background: rgba(36, 40, 59, 1);
+    box-shadow: 0 0 0 2px var(--accent);
+}
+
+.datetime-inputs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.datetime-inputs input {
+    margin-bottom: 0;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.save-btn,
+.cancel-btn {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.save-btn {
+    background: var(--accent);
+    color: var(--bg);
+}
+
+.save-btn:hover {
+    background: #9bb3f0;
+    transform: translateY(-1px);
+}
+
+.cancel-btn {
+    background: rgba(247, 118, 142, 0.8);
+    color: white;
+}
+
+.cancel-btn:hover {
+    background: #f7768e;
+    transform: translateY(-1px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .clock {
+        font-size: 2rem;
+    }
+    
+    body {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .main-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

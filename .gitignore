@@ -1,0 +1,11 @@
+# Ignore VS Code OSS config (entire folder)
+.config/Code - OSS/
+
+# Ignore tasks for browser start page
+.browser-page/tasks.json
+
+# Optional: general cache/temp ignores
+*.log
+*.bak
+*.swp
+.DS_Store
