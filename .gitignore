@@ -1,5 +1,6 @@
 # Ignore VS Code OSS config (entire folder)
 .config/Code - OSS/
+.config/VSCodium/
 
 # Ignore tasks for browser start page
 .browser-page/tasks.json
