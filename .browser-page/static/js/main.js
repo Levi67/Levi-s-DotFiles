@@ -26,7 +26,7 @@ async function fetchWeather() {
     try {
         // Get user's location first, then fetch weather
         // You can replace 'Brussels' with any city or use geolocation
-        const location = 'Brussels'; // Change this to your preferred location
+        const location = 'ruhpolding'; // Change this to your preferred location
         const response = await fetch(`https://wttr.in/${location}?format=j1`);
         
         if (!response.ok) {
