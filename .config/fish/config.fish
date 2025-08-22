@@ -5,6 +5,7 @@ end
 
 # uv
 fish_add_path "/home/levi/.local/bin"
+cd
 alias cd z
 alias icat="kitty +kitten icat"
 zoxide init fish | source
