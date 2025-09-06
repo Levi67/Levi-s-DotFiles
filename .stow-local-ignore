@@ -1,0 +1,13 @@
+\.DS_Store$
+\.git$
+\.gitignore$
+\.gitmodules$
+\.svn$
+CVS$
+~$                # files ending in ~
+^\.#              # files starting with .#
+\.bak$
+\.orig$
+\.rej$
+\.tmp$
+^walls\.sh$       # specifically ignore 'walls.sh'
